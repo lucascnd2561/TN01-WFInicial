@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WFinicial
 {
-    public partial class FormEx4 : Form
+    public partial class FormEx5 : Form
     {
-        public FormEx4()
+        public FormEx5()
         {
             InitializeComponent();
         }
@@ -26,15 +26,14 @@ namespace WFinicial
             int maior = Math.Max(num1, num2);
             maior = Math.Max(num3, maior);
 
+            int menor = Math.Min(num1, num2);
+            menor = Math.Min(num3, menor);
+
             string mensagem = $"O Número {maior} é o maior número!";
+            mensagem += $"\n O Número {menor} é o menor número!";
 
             MessageBox.Show(mensagem, "Info",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-
-        private void txtNum3_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
