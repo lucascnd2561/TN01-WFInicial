@@ -16,5 +16,18 @@ namespace WFinicial
         {
             InitializeComponent();
         }
+
+        private void btnCal_Click(object sender, EventArgs e)
+        {
+            string nome = txtNome.Text;
+            double valorHora = Convert.ToDouble(txtValorHora.Text);
+            int quantHoras = Convert.ToInt32(txtValorHora.Text);
+            double resultado = valorHora * quantHoras;
+
+            string mensagem = $"A renda total de {nome} é R$ {resultado:F2}";
+
+            MessageBox.Show(mensagem, "Info",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
