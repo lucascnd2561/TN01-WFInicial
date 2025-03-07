@@ -64,5 +64,11 @@ namespace WFinicial
             FormEx8 formEx8 = new FormEx8();
             formEx8.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormEx9 formEx9 = new FormEx9();
+            formEx9.ShowDialog();
+        }
     }
 }
