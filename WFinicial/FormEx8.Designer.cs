@@ -33,12 +33,12 @@
             txtNumero2 = new TextBox();
             lblNumero2 = new Label();
             gbxOperacao = new GroupBox();
-            rdbSoma = new RadioButton();
-            rdbSubtracao = new RadioButton();
-            rdbMultiplicacao = new RadioButton();
-            rdbDivisao = new RadioButton();
-            rdbPotenciacao = new RadioButton();
             rdbRadiciacao = new RadioButton();
+            rdbSubtracao = new RadioButton();
+            rdbPotenciacao = new RadioButton();
+            rdbSoma = new RadioButton();
+            rdbDivisao = new RadioButton();
+            rdbMultiplicacao = new RadioButton();
             btnCalcular = new Button();
             gbxOperacao.SuspendLayout();
             SuspendLayout();
@@ -90,16 +90,16 @@
             gbxOperacao.TabStop = false;
             gbxOperacao.Text = "Operação";
             // 
-            // rdbSoma
+            // rdbRadiciacao
             // 
-            rdbSoma.AutoSize = true;
-            rdbSoma.Location = new Point(18, 22);
-            rdbSoma.Name = "rdbSoma";
-            rdbSoma.Size = new Size(55, 19);
-            rdbSoma.TabIndex = 0;
-            rdbSoma.TabStop = true;
-            rdbSoma.Text = "Soma";
-            rdbSoma.UseVisualStyleBackColor = true;
+            rdbRadiciacao.AutoSize = true;
+            rdbRadiciacao.Location = new Point(18, 147);
+            rdbRadiciacao.Name = "rdbRadiciacao";
+            rdbRadiciacao.Size = new Size(82, 19);
+            rdbRadiciacao.TabIndex = 9;
+            rdbRadiciacao.TabStop = true;
+            rdbRadiciacao.Text = "Radiciação";
+            rdbRadiciacao.UseVisualStyleBackColor = true;
             // 
             // rdbSubtracao
             // 
@@ -112,16 +112,27 @@
             rdbSubtracao.Text = "Subtração";
             rdbSubtracao.UseVisualStyleBackColor = true;
             // 
-            // rdbMultiplicacao
+            // rdbPotenciacao
             // 
-            rdbMultiplicacao.AutoSize = true;
-            rdbMultiplicacao.Location = new Point(18, 72);
-            rdbMultiplicacao.Name = "rdbMultiplicacao";
-            rdbMultiplicacao.Size = new Size(97, 19);
-            rdbMultiplicacao.TabIndex = 6;
-            rdbMultiplicacao.TabStop = true;
-            rdbMultiplicacao.Text = "Multiplicação";
-            rdbMultiplicacao.UseVisualStyleBackColor = true;
+            rdbPotenciacao.AutoSize = true;
+            rdbPotenciacao.Location = new Point(18, 122);
+            rdbPotenciacao.Name = "rdbPotenciacao";
+            rdbPotenciacao.Size = new Size(90, 19);
+            rdbPotenciacao.TabIndex = 8;
+            rdbPotenciacao.TabStop = true;
+            rdbPotenciacao.Text = "Potenciação";
+            rdbPotenciacao.UseVisualStyleBackColor = true;
+            // 
+            // rdbSoma
+            // 
+            rdbSoma.AutoSize = true;
+            rdbSoma.Location = new Point(18, 22);
+            rdbSoma.Name = "rdbSoma";
+            rdbSoma.Size = new Size(55, 19);
+            rdbSoma.TabIndex = 0;
+            rdbSoma.TabStop = true;
+            rdbSoma.Text = "Soma";
+            rdbSoma.UseVisualStyleBackColor = true;
             // 
             // rdbDivisao
             // 
@@ -134,27 +145,16 @@
             rdbDivisao.Text = "Divisão";
             rdbDivisao.UseVisualStyleBackColor = true;
             // 
-            // rdbPotenciacao
+            // rdbMultiplicacao
             // 
-            rdbPotenciacao.AutoSize = true;
-            rdbPotenciacao.Location = new Point(18, 122);
-            rdbPotenciacao.Name = "rdbPotenciacao";
-            rdbPotenciacao.Size = new Size(90, 19);
-            rdbPotenciacao.TabIndex = 8;
-            rdbPotenciacao.TabStop = true;
-            rdbPotenciacao.Text = "Potenciação";
-            rdbPotenciacao.UseVisualStyleBackColor = true;
-            // 
-            // rdbRadiciacao
-            // 
-            rdbRadiciacao.AutoSize = true;
-            rdbRadiciacao.Location = new Point(18, 147);
-            rdbRadiciacao.Name = "rdbRadiciacao";
-            rdbRadiciacao.Size = new Size(82, 19);
-            rdbRadiciacao.TabIndex = 9;
-            rdbRadiciacao.TabStop = true;
-            rdbRadiciacao.Text = "Radiciação";
-            rdbRadiciacao.UseVisualStyleBackColor = true;
+            rdbMultiplicacao.AutoSize = true;
+            rdbMultiplicacao.Location = new Point(18, 72);
+            rdbMultiplicacao.Name = "rdbMultiplicacao";
+            rdbMultiplicacao.Size = new Size(97, 19);
+            rdbMultiplicacao.TabIndex = 6;
+            rdbMultiplicacao.TabStop = true;
+            rdbMultiplicacao.Text = "Multiplicação";
+            rdbMultiplicacao.UseVisualStyleBackColor = true;
             // 
             // btnCalcular
             // 
